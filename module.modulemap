@@ -1,0 +1,5 @@
+module Clibgps [system] {
+  header "/usr/include/gps.h"
+  link "gps"
+  export *
+}
